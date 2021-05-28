@@ -1,7 +1,7 @@
-pandas==1.0.3
-Flask==1.1.1
-numpy==1.18.1
-scikit_learn==0.23.1
+pandas
+Flask
+numpy
+scikit_learn
 gunicorn==20.0.4
 werkzeug==0.16.0
 jinja2==2.10.1
