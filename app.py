@@ -10,7 +10,7 @@ model=pickle.load(open("model.pkl", 'rb'))
 def home():
     return render_template('index.html')
 
-@app.route('/predict', methods = ['POST'])
+@app.route('/predict', methods = ['POST', 'GET'])
 def predict():
     features = [int(x) for x in request.form.values()]
     final_features = [np.array(features)]
