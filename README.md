@@ -1,5 +1,5 @@
 # Restaurant_rating_prediction
-Using zomato bangalore data to predict restaurant rating in machine learning, and deploy to heroku.
+Using zomato bangalore data to predict restaurant rating in machine learning, and deployed on heroku.
 
 [Live Here](https://restaurant-rating-prediction.herokuapp.com/)
 
