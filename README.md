@@ -49,17 +49,17 @@ After dataprocessing or cleaning, it is very crucial to visualize dataset, there
 
 Now data is divided into two sets one is *training dataset* which is used to train the model (just like a new born child learns by sensing things around him), the other dataset is *testing dataset* which is used to evaluate or predict the accuracy of model. The machine uses its model, apply to testing dataset to give out predicted results. The predicted output then compared to final result in actual dataset (In this case it is labeled as *class*). That's why it is necessary to first drop that column named class, before we train our model.
 
-```
+```python
 X = data.drop('class', axis = 1)
 y = data['class']
 
 # from sklearn.model_selection import train_test_split
 x_train, x_test, y_train, y_test = train_test_split(X, y, test_size = 0.20, random_state = 1)
 ```
-```
+```python
 from sklearn.ensemble import ExtraTreesRegressor
 ```
-```
+```python
 reg = ExtraTreesRegressor(n_estimators=100, random_state=0);
 reg.fit(X_train, y_train);
 ```
