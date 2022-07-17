@@ -26,7 +26,7 @@
 - What is the most liked Dish type?
 
 
-![dataset](https://github.com/Abhishek-k-git/Restaurant_rating_prediction/blob/master/table.png)
+![dataset](https://github.com/Abhishek-k-git/Restaurant_rating_prediction/blob/master/images/table.png)
 
 
 **Implemented Algorithms:**
@@ -43,7 +43,7 @@ We know that data is messy. A dataset may contain multiple missing values. In th
 
 After dataprocessing or cleaning, it is very crucial to visualize dataset, there are many datavisualization tool out there. But here we use [seaborn](https://seaborn.pydata.org/), which is a python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
 
-![map](https://github.com/Abhishek-k-git/Restaurant_rating_prediction/blob/master/map.png)
+![map](https://github.com/Abhishek-k-git/Restaurant_rating_prediction/blob/master/images/map.png)
 
 > **Training / Testing data split:**
 
